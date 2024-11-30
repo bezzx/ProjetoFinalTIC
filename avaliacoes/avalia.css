@@ -1,5 +1,5 @@
 #total {
-    background-color: rgb(79, 69, 134);
+    background-color: rgb(26, 23, 44);
     color: rgb(34, 8, 63);
     border-radius: 10px;
     display: flex;
@@ -9,6 +9,9 @@
 
 }
 
+.nome {
+    text-align: center;
+}
 .foto {
     width: 150px;
     height: 150px;
@@ -30,10 +33,6 @@
     transform: scale(1.2); 
 }
 
-.nome {
-    text-align: center;
-}
-
 .form {
     display: flex;
     flex-direction: column; 
@@ -44,13 +43,50 @@
     border-radius: 10px;
     background-color: rgb(208, 190, 243);;
 }
+.row {
+    justify-content: space-evenly;
+}
+.card {
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
+    border-radius: 30%;
+    display: flex;
+} 
+
+.barra {
+    padding: 10px;
+    background-color:rgb(153, 145, 197);
+    color: #fff;
+    text-decoration:none;
+    border: 1px solid rgb(153, 145, 197);
+    border-radius: 10px;
+}
+.txt {
+    color: rgb(81, 36, 110);
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.projetos {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.projetos img {
+    width: 200px; 
+    height: auto;
+}
+
 
 .texto{
     background-color: rgb(226, 211, 243);
     border-radius: 5px;
     text-align: justify;
     padding: 1px;
-
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -60,12 +96,24 @@
 
 }
 
-.texto2{
-    color: rgb(90, 60, 124);
-    margin: 3%;
+.mail{
+    text-decoration:none;
+    color:  rgb(228, 36, 36);
+    padding: 10px;
 }
+.zap{
+    text-decoration:none;
+    color:  rgb(21, 198, 5);
+    padding: 10px;
+}
+.linkedin{
+    text-decoration:none;
+    color:  rgb(27, 17, 205);
+    padding: 10px;
+} 
 
-.texto4 {
-    margin-left: 5%;
-    color: rgb(90, 60, 124);
+.redsocial {
+    text-decoration:none;
+    color:  rgb(34, 8, 63);
+    padding: 10px;
 }

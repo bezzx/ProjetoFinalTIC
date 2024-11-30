@@ -1,0 +1,87 @@
+#total {
+    background-color: rgb(26, 23, 44);
+    color: rgb(34, 8, 63);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto;
+
+}
+.barra {
+    padding: 10px;
+    background-color:rgb(153, 145, 197);
+    color: #fff;
+    text-decoration:none;
+    border: 1px solid rgb(153, 145, 197);
+    border-radius: 10px;
+}
+.img_blog {
+    width: 580px;
+    height: 350px;
+    border-radius: 5%;
+    align-items: center;
+    justify-items: center;     
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column; 
+    width: 700px; 
+    height: auto;
+    padding: 20px; 
+    border: 1px solid rgb(153, 145, 197);
+    border-radius: 10px;
+    background-color: rgb(208, 190, 243);;
+}
+
+.texto{
+    background-color: rgb(226, 211, 243);
+    border-radius: 5px;
+    text-align: justify;
+    padding: 1px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.texto:hover {
+    background-color: rgb(240, 240, 240); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+.tblog{
+    color: rgb(31, 29, 33);
+    margin: 5%;
+}
+.textarea{
+    margin:1%;
+
+
+}
+.button {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(152, 100, 199);
+}
+
+.mail{
+    text-decoration:none;
+    color:  rgb(228, 36, 36);
+    padding: 10px;
+}
+.zap{
+    text-decoration:none;
+    color:  rgb(21, 198, 5);
+    padding: 10px;
+}
+.linkedin{
+    text-decoration:none;
+    color:  rgb(27, 17, 205);
+    padding: 10px;
+} 
+
+.redsocial {
+    text-decoration:none;
+    color:  rgb(34, 8, 63);
+    padding: 10px;
+}
